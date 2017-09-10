@@ -1,0 +1,78 @@
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505028100627">
+  <folder name="css">
+    <file name="site_global.css" crc="3872606453"/>
+    <file name="admin.css" crc="100878234" ref="admin"/>
+    <file name="stud-corner.css" crc="4217422368" ref="stud-corner"/>
+    <file name="index.css" crc="411105641" ref="index"/>
+    <file name="about-us.css" crc="77990293" ref="about-us"/>
+    <file name="contact.css" crc="4117046242" ref="contact"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="museutils.js" crc="163421577" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="whatinput.js" crc="86476730" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="museconfig.js" crc="36584860" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="jquery.musemenu.js" crc="146495465" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="webpro.js" crc="3848665353" ref="index:stud-corner"/>
+    <file name="musewpslideshow.js" crc="4041717617" ref="index:stud-corner"/>
+    <file name="jquery.museoverlay.js" crc="36492500" ref="index:stud-corner"/>
+    <file name="touchswipe.js" crc="404375771" ref="index:stud-corner"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="jquery.scrolleffects.js" crc="4065090679" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="require.js" crc="244322403" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="form_check.php" crc="158155501" ref="stud-corner"/>
+    <file name="form_throttle.php" crc="3992970984" ref="stud-corner"/>
+    <file name="form_process.php" crc="4078697226" ref="stud-corner"/>
+    <file name="form-u1170.php" crc="437735078" ref="stud-corner"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index:stud-corner"/>
+    <file name="u3202.png" crc="4108160843" ref="index"/>
+    <file name="u3202-r.png" crc="4108160843" ref="index"/>
+    <file name="u3236.png" crc="346751134" ref="index"/>
+    <file name="u3236-r.png" crc="346751134" ref="index"/>
+    <file name="u3266.png" crc="302252162" ref="index"/>
+    <file name="u3266-r.png" crc="302252162" ref="index"/>
+    <file name="u3293.png" crc="4080505606" ref="index"/>
+    <file name="u3293-r.png" crc="4080505606" ref="index"/>
+    <file name="u3324.png" crc="224218028" ref="index"/>
+    <file name="u3324-r.png" crc="224218028" ref="index"/>
+    <file name="dsec.jpg" crc="198152169" seo="true" ref="index"/>
+    <file name="u305-15.png" crc="441305056" ref="index"/>
+    <file name="18222601_1922739964675757_5074795213704740254_n.jpg" crc="79331562" seo="true" ref="index"/>
+    <file name="18403270_1924358784513875_3774976377098168020_n.jpg" crc="521837383" seo="true" ref="index"/>
+    <file name="18268340_1922740744675679_3404546554410534270_n.jpg" crc="3840655592" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index:stud-corner"/>
+    <file name="63892045-wood-floor-wallpapers.jpg" crc="72488763" ref="index:admin:stud-corner:contact:about-us"/>
+    <file name="u3460-4.png" crc="3783172657" ref="admin"/>
+    <file name="u3467-4.png" crc="476643252" ref="admin"/>
+    <file name="u3445-4.png" crc="125813406" ref="admin"/>
+    <file name="u3454-4.png" crc="519954008" ref="admin"/>
+    <file name="administrator.png" crc="4257141591" seo="true" ref="admin"/>
+    <file name="u1151-4.png" crc="131652444" ref="admin"/>
+    <file name="u3649-4.png" crc="3783172657" ref="stud-corner"/>
+    <file name="u3628-4.png" crc="4066208710" ref="stud-corner"/>
+    <file name="u3634-4.png" crc="125813406" ref="stud-corner"/>
+    <file name="u3643-4.png" crc="519954008" ref="stud-corner"/>
+    <file name="18275010_1924228884526865_3140573248313191287_n.jpg" crc="3974209100" seo="true" ref="stud-corner"/>
+    <file name="18275012_1924229857860101_5170733992556370444_n.jpg" crc="4118075474" seo="true" ref="stud-corner"/>
+    <file name="passstudent.jpg" crc="3937911406" seo="true" ref="stud-corner"/>
+    <file name="u3805-4.png" crc="3783172657" ref="contact"/>
+    <file name="u3784-4.png" crc="4066208710" ref="contact"/>
+    <file name="u3812-4.png" crc="265353651" ref="contact"/>
+    <file name="u3799-4.png" crc="519954008" ref="contact"/>
+    <file name="u4395-11.png" crc="386153735" ref="contact"/>
+    <file name="u3969-4.png" crc="3783172657" ref="about-us"/>
+    <file name="u3948-4.png" crc="4066208710" ref="about-us"/>
+    <file name="u3976-4.png" crc="265353651" ref="about-us"/>
+    <file name="u3954-4.png" crc="125813406" ref="about-us"/>
+    <file name="u2034-14.png" crc="224309896" ref="about-us"/>
+  </folder>
+  <file name="index.html" crc="53949015" seo="true" mt="1504969965986" redirect="true"/>
+  <file name="admin.html" crc="3902260601" seo="true" mt="1504969506637" redirect="true"/>
+  <file name="stud-corner.html" crc="91414922" seo="true" mt="1504969550600" redirect="true"/>
+  <file name="contact.html" crc="482167154" seo="true" mt="1504969524151" redirect="true"/>
+  <file name="about-us.html" crc="3780731447" seo="true" mt="1504969516003" redirect="true"/>
+</manifest>
