@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505155196834">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505405152968">
   <folder name="css">
     <file name="site_global.css" crc="3872606453"/>
-    <file name="index.css" crc="411105641" ref="index"/>
-    <file name="admin.css" crc="100878234" ref="admin"/>
-    <file name="stud-corner.css" crc="121704187" ref="stud-corner"/>
     <file name="contact.css" crc="4117046242" ref="contact"/>
     <file name="about-us.css" crc="77990293" ref="about-us"/>
+    <file name="stud-corner.css" crc="98561126" ref="stud-corner"/>
+    <file name="index.css" crc="411105641" ref="index"/>
+    <file name="admin.css" crc="100878234" ref="admin"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:admin:stud-corner:contact:about-us"/>
@@ -63,9 +63,9 @@
     <file name="u3954-4.png" crc="125813406" ref="about-us"/>
     <file name="u2034-14.png" crc="224309896" ref="about-us"/>
   </folder>
-  <file name="index.html" crc="4019876970" seo="true" mt="1504969965986" redirect="true"/>
-  <file name="admin.html" crc="4128714601" seo="true" mt="1504969506637" redirect="true"/>
-  <file name="stud-corner.html" crc="158791623" seo="true" mt="1505154806008" redirect="true"/>
-  <file name="contact.html" crc="3823050630" seo="true" mt="1504969524151" redirect="true"/>
-  <file name="about-us.html" crc="3925678357" seo="true" mt="1504969516003" redirect="true"/>
+  <file name="index.html" crc="420879121" seo="true" mt="1504969965986" redirect="true"/>
+  <file name="admin.html" crc="4089886779" seo="true" mt="1505401162773" redirect="true"/>
+  <file name="stud-corner.html" crc="430927459" seo="true" mt="1505154806008" redirect="true"/>
+  <file name="contact.html" crc="3848558001" seo="true" mt="1504969524151" redirect="true"/>
+  <file name="about-us.html" crc="167017679" seo="true" mt="1504969516003" redirect="true"/>
 </manifest>
