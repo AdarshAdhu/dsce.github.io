@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505499003656">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505579756313">
   <folder name="css">
     <file name="site_global.css" crc="3872606453"/>
-    <file name="admin.css" crc="4091874683" ref="admin"/>
+    <file name="stud-corner.css" crc="15343852" ref="stud-corner"/>
     <file name="about-us.css" crc="476336801" ref="about-us"/>
-    <file name="student-login.css" crc="4155996521" ref="student-login"/>
-    <file name="nomq_student-login.css" crc="212852888" ref="student-login"/>
-    <file name="stud-corner.css" crc="412570993" ref="stud-corner"/>
+    <file name="admin.css" crc="4091874683" ref="admin"/>
+    <file name="student-login.css" crc="359704221" ref="student-login"/>
+    <file name="nomq_student-login.css" crc="416150946" ref="student-login"/>
     <file name="contact.css" crc="3846180273" ref="contact"/>
     <file name="index.css" crc="379784810" ref="index"/>
   </folder>
@@ -97,10 +97,10 @@
     <file name="18275012_1924229857860101_5170733992556370444_n-crop-u5490.jpg" crc="500213938" ref="student-login"/>
     <file name="18301931_1924838894465864_1380545002194254329_n-crop-u55273.jpg" crc="4113558544" ref="student-login"/>
   </folder>
-  <file name="index.html" crc="2916268" seo="true" mt="1505495665905" redirect="true"/>
-  <file name="admin.html" crc="178056827" seo="true" mt="1505498623583" redirect="true"/>
-  <file name="stud-corner.html" crc="4052595378" seo="true" mt="1505154806008" redirect="true"/>
-  <file name="contact.html" crc="479713999" seo="true" mt="1505494531483" redirect="true"/>
-  <file name="about-us.html" crc="3987875264" seo="true" mt="1505494539875" redirect="true"/>
-  <file name="student-login.html" crc="37509330" seo="true" mt="1505498932520" redirect="true"/>
+  <file name="index.html" crc="421779386" seo="true" mt="1505495665905" redirect="true"/>
+  <file name="admin.html" crc="205057674" seo="true" mt="1505498623583" redirect="true"/>
+  <file name="stud-corner.html" crc="125023328" seo="true" mt="1505154806008" redirect="true"/>
+  <file name="contact.html" crc="439128312" seo="true" mt="1505494531483" redirect="true"/>
+  <file name="about-us.html" crc="230375450" seo="true" mt="1505494539875" redirect="true"/>
+  <file name="student-login.html" crc="31633490" seo="true" mt="1505579602200" redirect="true"/>
 </manifest>

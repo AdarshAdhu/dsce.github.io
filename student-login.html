@@ -17,10 +17,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>student login</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3872606453"/>
-  <link rel="stylesheet" type="text/css" href="css/student-login.css?crc=4155996521" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/student-login.css?crc=359704221" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_student-login.css?crc=212852888" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_student-login.css?crc=416150946" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -86,45 +86,88 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
      <div class="colelem shared_content" id="u4918" data-content-guid="u4918_content"><!-- custom html -->
-      <HEAD>
+      
+<html>
+<head>
+<script>
 
-<SCRIPT LANGUAGE="JavaScript">
-<!-- Begin
-function Login(){
-var done=0;
-var username=document.login.username.value;
-username=username.toLowerCase();
-var password=document.login.password.value;
-password=password.toLowerCase();
-if (username=="adarsh" && password=="721915104301") { window.location="stud-corner.html"; done=1; }
-if (username=="vidhu" && password=="721915104026") { window.location="stud-corner.html"; done=1; }
-if (username=="zaman" && password=="721915104016") { window.location="stud-corner.html"; done=1; }
-if (done==0) { alert("Invalid login!"); }
-}
-// End -->
-</SCRIPT>
-<BODY>
+function Login(form) { username = new Array("u1","u2","u3","u4","u5"); password = new Array("p1","p2","p3","p4","p5"); 
+page = "stud-corner"+".html"; 
 
+if(form.username.value == username[0] && form.password.value == password[0] || 
+form.username.value == username[1] && form.password.value == password[1] ||
+
+form.username.value == username[2] && form.password.value == password[2] || 
+form.username.value == username[3] && form.password.value == password[3] ||
+
+form.username.value == username[4] && form.password.value == password[4] || 
+form.username.value == username[5] && form.password.value == password[5] ||
+
+form.username.value == username[6] && form.password.value == password[6] || 
+form.username.value == username[7] && form.password.value == password[7] ||
+
+form.username.value == username[8] && form.password.value == password[8] || 
+form.username.value == username[9] && form.password.value == password[9]) 
+
+{ self.location.href = page; } else { alert("Either the username or password you entered is incorrect.\nPlease try again."); form.username.focus(); } return true; }
+
+</script> 
+</head> 
 <center>
+
 <form name=login>
-<tr><td colspan=2><center><font size="+2"><b>Students-Only Area!</b></font></center></td></tr>
-<table align="center">
-<tr>
-<td>Username:</td>
-<td><input type="text" size=30 name="username"></td>
-</tr>
+
+<tr><td colspan=2>
+<center><font size="+2"><b>Students-Only Area!</b>
+</font>
+</center>
+<body> 
+<form> <br> 
+<center> 
+</td></tr><br>
+<table width="30%" bgcolor="" align="center">
+
 </table>
 <br>
+
 <table align="center">
+
 <tr>
-<td>Password:</td>
-<td><input type="Password" size=30 name="password"></td>
+<td>Username:</td>
+<td><input type="text" size=30 name="username">
+</td>
 </tr>
 
-<tr><td colspan=2 align=center><input type=button value="Login!" onClick="Login()"></td></tr>
 </table>
-</form>
-</center>
+<br>
+
+<table align="center">
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=30 name="password">
+</td>
+</tr>
+
+<table align="center">
+
+<tr><br>
+<td ><input type="Reset">
+</td>
+
+<table align="center">
+
+<td><br><input type="button" value="Login" onClick="Login(this.form);" style="background:#bfbfbf;color:#000000;border-color:#212121;" onMouseOver="this.style.color =
+'#404040';" onMouseOut="this.style.color = '#000000';" onFocusr="this.style.color = '#404040';" onBlur="this.style.color = '#000000';">
+</td>
+</tr>
+
+</table>
+
+</center> 
+</form> 
+</body> 
+</html>
 
 
      </div>
@@ -278,17 +321,17 @@ Muse.Utils.prepHyperlinks(false);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1160', '#bp_1036'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#slideshowu5331', ['#bp_infinity', '#bp_1160', '#bp_1036'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu5331 */
+$('#bp_1036').one('muse_this_bp_activate', function(){
+$('#u5870').registerOpacityScrollEffect([{"opacity":10,"fade":315,"in":[-Infinity,135.05]},{"in":[135.05,135.05],"opacity":30},{"opacity":100,"fade":185.45,"in":[135.05,Infinity]}], $(this)); /* scroll effect */
+$('#menuu5875').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-2]},{"speed":[0,0],"in":[-2,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u5870').registerOpacityScrollEffect([{"fade":315,"in":[-Infinity,180.05],"opacity":10},{"in":[180.05,180.05],"opacity":30},{"fade":113.95,"in":[180.05,Infinity],"opacity":100}], $(this)); /* scroll effect */
+$('#u5870').registerOpacityScrollEffect([{"opacity":10,"fade":315,"in":[-Infinity,180.05]},{"in":[180.05,180.05],"opacity":30},{"opacity":100,"fade":113.95,"in":[180.05,Infinity]}], $(this)); /* scroll effect */
 $('#menuu5875').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-8.95]},{"speed":[0,0],"in":[-8.95,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_1160').one('muse_this_bp_activate', function(){
 $('#menuu5875').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,20]},{"speed":[0,0],"in":[20,Infinity]}], $(this)); /* scroll effect */
-$('#u5870').registerOpacityScrollEffect([{"fade":315,"in":[-Infinity,466.35],"opacity":10},{"in":[466.35,466.35],"opacity":30},{"fade":185.45,"in":[466.35,Infinity],"opacity":100}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_1036').one('muse_this_bp_activate', function(){
-$('#u5870').registerOpacityScrollEffect([{"fade":315,"in":[-Infinity,135.05],"opacity":10},{"in":[135.05,135.05],"opacity":30},{"fade":185.45,"in":[135.05,Infinity],"opacity":100}], $(this)); /* scroll effect */
-$('#menuu5875').registerPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-2]},{"speed":[0,0],"in":[-2,Infinity]}], $(this)); /* scroll effect */
+$('#u5870').registerOpacityScrollEffect([{"opacity":10,"fade":315,"in":[-Infinity,466.35]},{"in":[466.35,466.35],"opacity":30},{"opacity":100,"fade":185.45,"in":[466.35,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
