@@ -1,13 +1,12 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505580690192">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505584762339">
   <folder name="css">
     <file name="site_global.css" crc="3872606453"/>
-    <file name="stud-corner.css" crc="15343852" ref="stud-corner"/>
-    <file name="about-us.css" crc="476336801" ref="about-us"/>
-    <file name="admin.css" crc="4091874683" ref="admin"/>
-    <file name="student-login.css" crc="234106335" ref="student-login"/>
-    <file name="nomq_student-login.css" crc="4039101850" ref="student-login"/>
-    <file name="contact.css" crc="3846180273" ref="contact"/>
     <file name="index.css" crc="379784810" ref="index"/>
+    <file name="stud-corner.css" crc="412570993" ref="stud-corner"/>
+    <file name="student-login.css" crc="3894889538" ref="student-login"/>
+    <file name="admin.css" crc="4091874683" ref="admin"/>
+    <file name="contact.css" crc="53344471" ref="contact"/>
+    <file name="about-us.css" crc="476336801" ref="about-us"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:admin:stud-corner:contact:about-us:student-login"/>
@@ -24,7 +23,6 @@
     <file name="jquery.scrolleffects.js" crc="4065090679" ref="index:admin:stud-corner:contact:about-us:student-login"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:admin:stud-corner:contact:about-us:student-login"/>
     <file name="require.js" crc="244322403" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="student-login"/>
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index:student-login"/>
@@ -59,7 +57,7 @@
     <file name="u3784-4.png" crc="4066208710" ref="contact"/>
     <file name="u3812-4.png" crc="265353651" ref="contact"/>
     <file name="u3799-4.png" crc="519954008" ref="contact"/>
-    <file name="u4395-11.png" crc="386153735" ref="contact"/>
+    <file name="u4395-37.png" crc="3913957524" ref="contact"/>
     <file name="u3969-4.png" crc="3783172657" ref="about-us"/>
     <file name="u3948-4.png" crc="4066208710" ref="about-us"/>
     <file name="u3976-4.png" crc="265353651" ref="about-us"/>
@@ -77,31 +75,11 @@
     <file name="18275012_1924229857860101_5170733992556370444_n.jpg" crc="4199431085" seo="true" ref="student-login"/>
     <file name="18301931_1924838894465864_1380545002194254329_n-crop-u7070.jpg" crc="4259811456" ref="student-login"/>
     <file name="passstudent.jpg" crc="3937911406" seo="true" ref="student-login"/>
-    <file name="u58792.png" crc="3783172657" ref="student-login"/>
-    <file name="u5879-r2.png" crc="3783172657" ref="student-login"/>
-    <file name="u59002.png" crc="4066208710" ref="student-login"/>
-    <file name="u5900-r2.png" crc="4066208710" ref="student-login"/>
-    <file name="u59082.png" crc="125813406" ref="student-login"/>
-    <file name="u5908-r2.png" crc="125813406" ref="student-login"/>
-    <file name="u58882.png" crc="519954008" ref="student-login"/>
-    <file name="u5888-r2.png" crc="519954008" ref="student-login"/>
-    <file name="18275012_1924229857860101_5170733992556370444_n-crop-u7022.jpg" crc="161970915" ref="student-login"/>
-    <file name="18301931_1924838894465864_1380545002194254329_n-crop-u70702.jpg" crc="4113558544" ref="student-login"/>
-    <file name="u58793.png" crc="3783172657" ref="student-login"/>
-    <file name="u5879-r3.png" crc="3783172657" ref="student-login"/>
-    <file name="u59003.png" crc="4066208710" ref="student-login"/>
-    <file name="u5900-r3.png" crc="4066208710" ref="student-login"/>
-    <file name="u59083.png" crc="125813406" ref="student-login"/>
-    <file name="u5908-r3.png" crc="125813406" ref="student-login"/>
-    <file name="u58883.png" crc="519954008" ref="student-login"/>
-    <file name="u5888-r3.png" crc="519954008" ref="student-login"/>
-    <file name="18275012_1924229857860101_5170733992556370444_n-crop-u70222.jpg" crc="161970915" ref="student-login"/>
-    <file name="18301931_1924838894465864_1380545002194254329_n-crop-u70703.jpg" crc="4113558544" ref="student-login"/>
   </folder>
-  <file name="index.html" crc="421779386" seo="true" mt="1505495665905" redirect="true"/>
-  <file name="admin.html" crc="205057674" seo="true" mt="1505498623583" redirect="true"/>
-  <file name="stud-corner.html" crc="125023328" seo="true" mt="1505154806008" redirect="true"/>
-  <file name="contact.html" crc="439128312" seo="true" mt="1505494531483" redirect="true"/>
-  <file name="about-us.html" crc="230375450" seo="true" mt="1505494539875" redirect="true"/>
-  <file name="student-login.html" crc="200453755" seo="true" mt="1505580623181" redirect="true"/>
+  <file name="index.html" crc="4021270721" seo="true" mt="1505495665905" redirect="true"/>
+  <file name="admin.html" crc="4050061828" seo="true" mt="1505498623583" redirect="true"/>
+  <file name="stud-corner.html" crc="4052595378" seo="true" mt="1505154806008" redirect="true"/>
+  <file name="contact.html" crc="4068019685" seo="true" mt="1505584356153" redirect="true"/>
+  <file name="about-us.html" crc="3987875264" seo="true" mt="1505494539875" redirect="true"/>
+  <file name="student-login.html" crc="3896392200" seo="true" mt="1505584676786" redirect="true"/>
 </manifest>
