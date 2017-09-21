@@ -1,31 +1,36 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505584762339">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505974896192">
   <folder name="css">
     <file name="site_global.css" crc="3872606453"/>
+    <file name="stud-corner.css" crc="193935003" ref="stud-corner"/>
     <file name="index.css" crc="379784810" ref="index"/>
-    <file name="stud-corner.css" crc="412570993" ref="stud-corner"/>
-    <file name="student-login.css" crc="3894889538" ref="student-login"/>
-    <file name="admin.css" crc="4091874683" ref="admin"/>
     <file name="contact.css" crc="53344471" ref="contact"/>
+    <file name="student-login.css" crc="3894889538" ref="student-login"/>
+    <file name="database.css" crc="68933587" ref="database"/>
     <file name="about-us.css" crc="476336801" ref="about-us"/>
+    <file name="admin.css" crc="4091874683" ref="admin"/>
+    <file name="complaint-chart.css" crc="4216936426" ref="complaint-chart"/>
+    <file name="respond-chart.css" crc="4103725155" ref="respond-chart"/>
+    <file name="charts.css" crc="84165272" ref="charts"/>
+    <file name="respond.css" crc="186961085" ref="respond"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="museutils.js" crc="163421577" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="whatinput.js" crc="86476730" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="museconfig.js" crc="36584860" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="jquery.musemenu.js" crc="146495465" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="webpro.js" crc="3848665353" ref="index:student-login"/>
-    <file name="musewpslideshow.js" crc="4041717617" ref="index:student-login"/>
-    <file name="jquery.museoverlay.js" crc="36492500" ref="index:student-login"/>
-    <file name="touchswipe.js" crc="404375771" ref="index:student-login"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="379354253" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="jquery.watch.js" crc="104486786" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="jquery.scrolleffects.js" crc="4065090679" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:admin:stud-corner:contact:about-us:student-login"/>
-    <file name="require.js" crc="244322403" ref="index:admin:stud-corner:contact:about-us:student-login"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="museutils.js" crc="4148063285" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="whatinput.js" crc="86476730" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="museconfig.js" crc="172512987" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="jquery.musemenu.js" crc="3765830709" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="webpro.js" crc="3986320349" ref="index:student-login"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="index:student-login"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="index:student-login"/>
+    <file name="touchswipe.js" crc="221459597" ref="index:student-login"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="jquery.scrolleffects.js" crc="3801019579" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
+    <file name="require.js" crc="4159430777" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index:student-login"/>
+    <file name="blank.gif" crc="4208392903" ref="index:student-login:database:respond:complaint-chart:respond-chart:charts"/>
     <file name="u3202.png" crc="4108160843" ref="index"/>
     <file name="u3202-r.png" crc="4108160843" ref="index"/>
     <file name="u3236.png" crc="346751134" ref="index"/>
@@ -42,7 +47,7 @@
     <file name="18403270_1924358784513875_3774976377098168020_n.jpg" crc="521837383" seo="true" ref="index"/>
     <file name="18268340_1922740744675679_3404546554410534270_n.jpg" crc="3840655592" seo="true" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index:student-login"/>
-    <file name="63892045-wood-floor-wallpapers.jpg" crc="3972408599" ref="index:admin:stud-corner:contact:about-us:student-login"/>
+    <file name="63892045-wood-floor-wallpapers.jpg" crc="3972408599" ref="index:admin:stud-corner:contact:about-us:student-login:database:respond:complaint-chart:respond-chart:charts"/>
     <file name="u3460-4.png" crc="3783172657" ref="admin"/>
     <file name="u3467-4.png" crc="476643252" ref="admin"/>
     <file name="u3445-4.png" crc="125813406" ref="admin"/>
@@ -75,11 +80,66 @@
     <file name="18275012_1924229857860101_5170733992556370444_n.jpg" crc="4199431085" seo="true" ref="student-login"/>
     <file name="18301931_1924838894465864_1380545002194254329_n-crop-u7070.jpg" crc="4259811456" ref="student-login"/>
     <file name="passstudent.jpg" crc="3937911406" seo="true" ref="student-login"/>
+    <file name="u7287.png" crc="4108160843" ref="database"/>
+    <file name="u7287-r.png" crc="4108160843" ref="database"/>
+    <file name="u7316.png" crc="346751134" ref="database"/>
+    <file name="u7316-r.png" crc="346751134" ref="database"/>
+    <file name="u7295.png" crc="302252162" ref="database"/>
+    <file name="u7295-r.png" crc="302252162" ref="database"/>
+    <file name="u7890.png" crc="3787688397" ref="database"/>
+    <file name="u7890-r.png" crc="3787688397" ref="database"/>
+    <file name="u8035.png" crc="150837668" ref="database"/>
+    <file name="u8035-r.png" crc="150837668" ref="database"/>
+    <file name="u7533.png" crc="3783172657" ref="respond"/>
+    <file name="u7533-r.png" crc="3783172657" ref="respond"/>
+    <file name="u7518.png" crc="4066208710" ref="respond"/>
+    <file name="u7518-r.png" crc="4066208710" ref="respond"/>
+    <file name="u7527.png" crc="265353651" ref="respond"/>
+    <file name="u7527-r.png" crc="265353651" ref="respond"/>
+    <file name="u7965.png" crc="4211214826" ref="respond"/>
+    <file name="u7965-r.png" crc="4211214826" ref="respond"/>
+    <file name="u8589.png" crc="4108160843" ref="complaint-chart"/>
+    <file name="u8589-r.png" crc="4108160843" ref="complaint-chart"/>
+    <file name="u8608.png" crc="346751134" ref="complaint-chart"/>
+    <file name="u8608-r.png" crc="346751134" ref="complaint-chart"/>
+    <file name="u8601.png" crc="302252162" ref="complaint-chart"/>
+    <file name="u8601-r.png" crc="302252162" ref="complaint-chart"/>
+    <file name="u8596.png" crc="4080505606" ref="complaint-chart"/>
+    <file name="u8596-r.png" crc="4080505606" ref="complaint-chart"/>
+    <file name="u8614.png" crc="224218028" ref="complaint-chart"/>
+    <file name="u8614-r.png" crc="224218028" ref="complaint-chart"/>
+    <file name="u8444.png" crc="4108160843" ref="respond-chart"/>
+    <file name="u8444-r.png" crc="4108160843" ref="respond-chart"/>
+    <file name="u8463.png" crc="346751134" ref="respond-chart"/>
+    <file name="u8463-r.png" crc="346751134" ref="respond-chart"/>
+    <file name="u8456.png" crc="302252162" ref="respond-chart"/>
+    <file name="u8456-r.png" crc="302252162" ref="respond-chart"/>
+    <file name="u8451.png" crc="4080505606" ref="respond-chart"/>
+    <file name="u8451-r.png" crc="4080505606" ref="respond-chart"/>
+    <file name="u8469.png" crc="224218028" ref="respond-chart"/>
+    <file name="u8469-r.png" crc="224218028" ref="respond-chart"/>
+    <file name="u8074.png" crc="4108160843" ref="charts"/>
+    <file name="u8074-r.png" crc="4108160843" ref="charts"/>
+    <file name="u8082.png" crc="346751134" ref="charts"/>
+    <file name="u8082-r.png" crc="346751134" ref="charts"/>
+    <file name="u8092.png" crc="302252162" ref="charts"/>
+    <file name="u8092-r.png" crc="302252162" ref="charts"/>
+    <file name="u8099.png" crc="4080505606" ref="charts"/>
+    <file name="u8099-r.png" crc="4080505606" ref="charts"/>
+    <file name="u8102.png" crc="224218028" ref="charts"/>
+    <file name="u8102-r.png" crc="224218028" ref="charts"/>
+    <file name="u8289-4.png" crc="501004287" ref="charts"/>
+    <file name="u8420-4.png" crc="3829139852" ref="charts"/>
   </folder>
-  <file name="index.html" crc="4021270721" seo="true" mt="1505495665905" redirect="true"/>
-  <file name="admin.html" crc="4050061828" seo="true" mt="1505498623583" redirect="true"/>
-  <file name="stud-corner.html" crc="4052595378" seo="true" mt="1505154806008" redirect="true"/>
-  <file name="contact.html" crc="4068019685" seo="true" mt="1505584356153" redirect="true"/>
-  <file name="about-us.html" crc="3987875264" seo="true" mt="1505494539875" redirect="true"/>
-  <file name="student-login.html" crc="3896392200" seo="true" mt="1505584676786" redirect="true"/>
+  <file name="index.html" crc="495510521" seo="true" mt="1505495665905" redirect="true"/>
+  <file name="admin.html" crc="23002123" seo="true" mt="1505967057930" redirect="true"/>
+  <file name="stud-corner.html" crc="4081530756" seo="true" mt="1505968558941" redirect="true"/>
+  <file name="contact.html" crc="459065716" seo="true" mt="1505584356153" redirect="true"/>
+  <file name="about-us.html" crc="3856696524" seo="true" mt="1505494539875" redirect="true"/>
+  <file name="student-login.html" crc="3804461239" seo="true" mt="1505584676786" redirect="true"/>
+  <file name="database.html" crc="321724042" seo="true" mt="1505974707463" redirect="true"/>
+  <file name="respond.html" crc="72816925" seo="true" mt="1505973713916" redirect="true"/>
+  <file name="complaint-chart.html" crc="3929177662" seo="true" mt="1505974839178" redirect="true"/>
+  <file name="respond-chart.html" crc="4067343882" seo="true" mt="1505974842898" redirect="true"/>
+  <file name="charts.html" crc="4044867870" seo="true" mt="1505974792550" redirect="true"/>
 </manifest>
