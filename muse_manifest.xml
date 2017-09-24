@@ -1,16 +1,16 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1505974896192">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1506238844718">
   <folder name="css">
     <file name="site_global.css" crc="3872606453"/>
     <file name="stud-corner.css" crc="193935003" ref="stud-corner"/>
     <file name="index.css" crc="379784810" ref="index"/>
     <file name="contact.css" crc="53344471" ref="contact"/>
-    <file name="student-login.css" crc="3894889538" ref="student-login"/>
+    <file name="student-login.css" crc="3950144650" ref="student-login"/>
     <file name="database.css" crc="68933587" ref="database"/>
     <file name="about-us.css" crc="476336801" ref="about-us"/>
     <file name="admin.css" crc="4091874683" ref="admin"/>
     <file name="complaint-chart.css" crc="4216936426" ref="complaint-chart"/>
     <file name="respond-chart.css" crc="4103725155" ref="respond-chart"/>
-    <file name="charts.css" crc="84165272" ref="charts"/>
+    <file name="charts.css" crc="4264865346" ref="charts"/>
     <file name="respond.css" crc="186961085" ref="respond"/>
   </folder>
   <folder name="scripts">
@@ -41,7 +41,7 @@
     <file name="u3293-r.png" crc="4080505606" ref="index"/>
     <file name="u3324.png" crc="224218028" ref="index"/>
     <file name="u3324-r.png" crc="224218028" ref="index"/>
-    <file name="dsec.jpg" crc="198152169" seo="true" ref="index"/>
+    <file name="dsec.jpg" crc="417040177" seo="true" ref="index"/>
     <file name="u305-15.png" crc="441305056" ref="index"/>
     <file name="18222601_1922739964675757_5074795213704740254_n.jpg" crc="79331562" seo="true" ref="index"/>
     <file name="18403270_1924358784513875_3774976377098168020_n.jpg" crc="521837383" seo="true" ref="index"/>
@@ -131,15 +131,15 @@
     <file name="u8289-4.png" crc="501004287" ref="charts"/>
     <file name="u8420-4.png" crc="3829139852" ref="charts"/>
   </folder>
-  <file name="index.html" crc="495510521" seo="true" mt="1505495665905" redirect="true"/>
-  <file name="admin.html" crc="23002123" seo="true" mt="1505967057930" redirect="true"/>
-  <file name="stud-corner.html" crc="4081530756" seo="true" mt="1505968558941" redirect="true"/>
-  <file name="contact.html" crc="459065716" seo="true" mt="1505584356153" redirect="true"/>
-  <file name="about-us.html" crc="3856696524" seo="true" mt="1505494539875" redirect="true"/>
-  <file name="student-login.html" crc="3804461239" seo="true" mt="1505584676786" redirect="true"/>
-  <file name="database.html" crc="321724042" seo="true" mt="1505974707463" redirect="true"/>
-  <file name="respond.html" crc="72816925" seo="true" mt="1505973713916" redirect="true"/>
-  <file name="complaint-chart.html" crc="3929177662" seo="true" mt="1505974839178" redirect="true"/>
-  <file name="respond-chart.html" crc="4067343882" seo="true" mt="1505974842898" redirect="true"/>
-  <file name="charts.html" crc="4044867870" seo="true" mt="1505974792550" redirect="true"/>
+  <file name="index.html" crc="3772194495" seo="true" mt="1506238481744" redirect="true"/>
+  <file name="admin.html" crc="23002123" seo="true" mt="1506238481692" redirect="true"/>
+  <file name="stud-corner.html" crc="4081530756" seo="true" mt="1506238481651" redirect="true"/>
+  <file name="contact.html" crc="459065716" seo="true" mt="1506238481613" redirect="true"/>
+  <file name="about-us.html" crc="3856696524" seo="true" mt="1506238481577" redirect="true"/>
+  <file name="student-login.html" crc="59014177" seo="true" mt="1506238566994" redirect="true"/>
+  <file name="database.html" crc="321724042" seo="true" mt="1506238481490" redirect="true"/>
+  <file name="respond.html" crc="72816925" seo="true" mt="1506238481442" redirect="true"/>
+  <file name="complaint-chart.html" crc="3929177662" seo="true" mt="1506238481410" redirect="true"/>
+  <file name="respond-chart.html" crc="4067343882" seo="true" mt="1506238481380" redirect="true"/>
+  <file name="charts.html" crc="329918442" seo="true" mt="1506238794458" redirect="true"/>
 </manifest>
