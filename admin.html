@@ -66,50 +66,71 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="colelem" id="u1626"><!-- custom html -->
      <html>
-<body>
-<form>
-<table width="30%" bgcolor="" align="center">
-<tr>
-<td colspan=2><center><font size=5><b>Admin Login Page</b></font></center></td>
-</tr>
+<head>
+<script>
+function Login(form) { 
+username = new Array("adarsh"); 
+password = new Array("adhu"); 
+page = "database"+".html"; 
+if(form.username.value == username[0] && form.password.value == password[0] || 
+form.username.value == username[1] && form.password.value == password[1])
+{ self.location.href = page; } else { alert("Either the username or password you entered is incorrect.\nPlease try again."); form.username.focus(); } return true; }
+</script> 
+</head> 
+<center>
+
+<form name=login>
+
+<tr><td colspan=2>
+<center><font size="+2"><b>Students-Only Area!</b>
+</font>
+</center>
+<body> 
+<form> <br> 
+<center> 
+</td></tr><br>
+<table width="30%" bgcolor="" align="">
+
 </table>
 <br>
-<table align="center">
+
+<table align="">
+
 <tr>
 <td>Username:</td>
-<td><input type="text" size=30 name="userid"></td>
+<td><input type="text" size=30 name="username">
+</td>
 </tr>
+
 </table>
 <br>
-<table align="center">
+
+<table align="">
+
 <tr>
 <td>Password:</td>
-<td><input type="Password" size=30 name="pwd"></td>
-</tr>
-<tr>
-<td ><br><input type="Reset">
-</td>
-<td><br><input type="submit"onclick="check(this.form)" value="Login">
+<td><input type="Password" size=30 name="password">
 </td>
 </tr>
+
+<table align="">
+
+<tr><br>
+<td ><input type="Reset">
+</td>
+
+<table align="">
+
+<td><br><input type="button" value="Login" onClick="Login(this.form);" style="background:#bfbfbf;color:#000000;border-color:#212121;" onMouseOver="this.style.color =
+'#404040';" onMouseOut="this.style.color = '#000000';" onFocusr="this.style.color = '#404040';" onBlur="this.style.color = '#000000';">
+</td>
+</tr>
+
 </table>
-</form>
-<script language="javascript">
-function check(form)
-{
 
-if(form.userid.value == "adarsh" && form.pwd.value == "adhu")
-{
-window.open('database.html')
-}
-else
-{
-alert("Error Password or Username")
-}
-}
-</script>
-
-</body>
+</center> 
+</form> 
+</body> 
 </html>
 
     </div>

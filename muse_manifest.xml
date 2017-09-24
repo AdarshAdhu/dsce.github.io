@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1506238844718">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="adarshskurup@dsce.ac.in,onlinegreviance.in" resolutions="1x" timestamp="1506242088957">
   <folder name="css">
     <file name="site_global.css" crc="3872606453"/>
     <file name="stud-corner.css" crc="193935003" ref="stud-corner"/>
@@ -132,7 +132,7 @@
     <file name="u8420-4.png" crc="3829139852" ref="charts"/>
   </folder>
   <file name="index.html" crc="3772194495" seo="true" mt="1506238481744" redirect="true"/>
-  <file name="admin.html" crc="23002123" seo="true" mt="1506238481692" redirect="true"/>
+  <file name="admin.html" crc="480826588" seo="true" mt="1506242028924" redirect="true"/>
   <file name="stud-corner.html" crc="4081530756" seo="true" mt="1506238481651" redirect="true"/>
   <file name="contact.html" crc="459065716" seo="true" mt="1506238481613" redirect="true"/>
   <file name="about-us.html" crc="3856696524" seo="true" mt="1506238481577" redirect="true"/>
